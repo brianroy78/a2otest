@@ -1,19 +1,14 @@
 <h2 class="header-title">Paper League Problem</h2>
-<p class="sub-header">
-    Como entrada, recibirá el nombre de la categoría,
-    seguido de todos los resultados anotados sobre ella.
-    Un resultado se compondrá del nombre de la pareja que juega "en casa",
-    el número de sets que ha ganado, seguido del nombre de la pareja visitante,
-    y el número de sets ganados, separados por espacio.
-    Tanto los nombres de las categorías como de las parejas estarán compuestos de una única palabra de un máximo de 16 letras.
-    Cada categoría acabará con la palabra FIN.
-</p>
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-sm-6">
         <label class="col-form-label">Text</label>
-        <textarea id="input-1" class="form-control" rows="7" [(ngModel)]="input"></textarea>
+        <textarea id="input-1" class="form-control" rows="10" [(ngModel)]="input"></textarea>
         <br />
+    </div>
+    <div class="col-12 col-sm-6">
         <button #btn type="button" class="btn btn-success btn-rounded waves-light waves-effect width-md" (click)="resolve()">Resolve</button>
+        <div></div>
+        <label class="col-form-label">Output:</label>
         <br />
         <pre id="output-1">{{output}}</pre>
     </div>

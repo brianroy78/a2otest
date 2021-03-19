@@ -1,11 +1,15 @@
 <h2 class="header-title">Chess Problem</h2>
-<p class="sub-header"></p>
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-sm-6">
         <label class="col-form-label">Text</label>
-        <textarea id="input-2" class="form-control" rows="3" [(ngModel)]="input"></textarea>
+        <textarea id="input-2" class="form-control" rows="10" [(ngModel)]="input"></textarea>
         <br />
-        <button #btn type="button" class="btn btn-success btn-rounded waves-light waves-effect width-md" (click)="resolve()">Resolve</button>
+    </div>
+    <div class="col-12 col-sm-6">
+        <button #btn type="button" class="btn btn-success btn-rounded waves-light waves-effect width-md"            (click)="resolve()">Resolve</button>
+        <div></div>
+        <label class="col-form-label">Output:</label>
+        <br />
         <pre id="output-2">{{output}}</pre>
     </div>
 </div>

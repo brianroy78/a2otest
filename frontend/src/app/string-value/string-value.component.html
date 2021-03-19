@@ -1,12 +1,14 @@
 <h2 class="header-title">String Value Problem</h2>
-<p class="sub-header"></p>
 <div class="row">
-    <div class="col-12">
-        <label class="col-form-label">Text</label>
-        <textarea id="input-3" class="form-control" rows="7" [(ngModel)]="input"></textarea>
+    <div class="col-12 col-sm-6">
+        <label class="col-form-label">Input</label>
+        <textarea id="input-3" class="form-control" rows="10" [(ngModel)]="input"></textarea>
         <br />
+    </div>
+    <div class="col-12 col-sm-6">
         <button #btn type="button" class="btn btn-success btn-rounded waves-light waves-effect width-md" (click)="resolve()">Resolve</button>
-        <br />
+        <div></div>
+        <label class="col-form-label">Output:</label>
         <br />
         <pre id="output-3">{{output}}</pre>
     </div>
