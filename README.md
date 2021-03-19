@@ -4,33 +4,41 @@
 * NodeJs v12.18.4+ installed
 
 # Backend
-## To Launch the Backend with virtual enviroment
+## To Deploy the Backend with virtual enviroment
 
+```bash
 cd backend
-
 python -m venv .env
-
+```
 * linux
+```bash
 source .env/bin/activate 
+```
 
 * windows
-.\\.env\Scripts\activate
+```powershell
+.\.env\Scripts\activate
+```
 
+```bash
 pip install -r requirements
 cd technical_test
 python manage.py runserver
+```
 
-## To Launch the Backend without virtual enviroment
+## To Deploy the Backend without virtual enviroment
+```bash
 cd backend
 pip install -r requirements
 cd technical_test
 python manage.py runserver
-
+```
 # Frontend
-## To launch
-
+## To Deploy
+```bash
 cd frontend
 npm install
 ng serve
+```
 Navigate to `http://localhost:4200/`
 
