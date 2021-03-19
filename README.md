@@ -12,7 +12,7 @@ python -m venv .env
 source .env/bin/activate 
 
 * windows
-.\.env\Scripts\activate
+.env\Scripts\activate
 
 pip install -r requirements
 cd technical_test
