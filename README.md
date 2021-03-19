@@ -10,12 +10,12 @@
 cd backend
 python -m venv .env
 ```
-* linux
+* activate enviroment (linux)
 ```bash
 source .env/bin/activate 
 ```
 
-* windows
+* activate enviroment (windows)
 ```powershell
 .\.env\Scripts\activate
 ```
