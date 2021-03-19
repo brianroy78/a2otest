@@ -1,10 +1,10 @@
-## Requirements
+# Requirements
 
 * Python 3.9+ isntalled
 * NodeJs v12.18.4+ installed
 
-## Backend
-# To Launch the Backend with virtual enviroment
+# Backend
+## To Launch the Backend with virtual enviroment
 cd backend
 python -m venv .env
 
@@ -12,20 +12,20 @@ python -m venv .env
 source .env/bin/activate 
 
 * windows
-.\.env\Scripts\activate
+.\\.env\Scripts\activate
 
 pip install -r requirements
 cd technical_test
 python manage.py runserver
 
-# To Launch the Backend without virtual enviroment
+## To Launch the Backend without virtual enviroment
 cd backend
 pip install -r requirements
 cd technical_test
 python manage.py runserver
 
-## Frontend
-# To launch
+# Frontend
+## To launch
 
 cd frontend
 npm install
